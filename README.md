@@ -43,7 +43,10 @@ No VS Code, o Live Server também funciona (abrir `public/index.html`).
 
 **No ar agora (GitHub Pages):** https://anavitoriasouzab.github.io/winners-landing-page/
 
-Cada `git push` no `main` publica a pasta `public/` automaticamente (`.github/workflows/pages.yml`). Configuração única no GitHub: *Settings → Pages → Build and deployment → Source: "GitHub Actions"*. O andamento aparece na aba *Actions*.
+Funciona nos dois modos do GitHub Pages:
+
+- **"Deploy from a branch"** (modo atual): o `index.html` da raiz do repositório leva direto para `public/` (o site fica em `/winners-landing-page/public/`) e o `404.html` da raiz leva para a 404 do site. Eles existem para o GitHub **nunca** mostrar este README como página. Não apague.
+- **"GitHub Actions"** (recomendado, endereço mais limpo): *Settings → Pages → Build and deployment → Source: "GitHub Actions"*. Cada `git push` no `main` publica só a pasta `public/` (`.github/workflows/pages.yml`) e o site abre direto em `/winners-landing-page/`.
 
 
 Qualquer hospedagem estática serve. Configuração em todas elas:

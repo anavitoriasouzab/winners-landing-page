@@ -22,7 +22,7 @@ Plain static site: HTML + CSS, no framework, no build. The only JS is `public/js
 
 ## Publishing
 
-Repo: https://github.com/anavitoriasouzab/winners-landing-page (branch `main` only). GitHub Pages deploys `public/` via `.github/workflows/pages.yml` on every push to `main`; live at https://anavitoriasouzab.github.io/winners-landing-page/ (a project page, so the site lives under `/winners-landing-page/`: keep all paths relative).
+Repo: https://github.com/anavitoriasouzab/winners-landing-page (branch `main` only). GitHub Pages deploys `public/` via `.github/workflows/pages.yml` on every push to `main`; live at https://anavitoriasouzab.github.io/winners-landing-page/ (a project page, so the site lives under `/winners-landing-page/`: keep all paths relative). Root `index.html` (redirect to `public/`), root `404.html` (redirect to `public/404.html`) and `.nojekyll` exist so that in "Deploy from a branch" mode GitHub never renders the README as the page. Do not delete them.
 
 ## Running
 
