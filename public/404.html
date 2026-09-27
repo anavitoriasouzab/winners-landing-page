@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada · Winners Hamburgueria</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0e0b0a">
+  <!-- A 404 pode aparecer em qualquer endereço, então os caminhos precisam de uma base fixa.
+       No ar e no localhost a base é a raiz "/". Aberta pelo Live Server ou direto do arquivo,
+       a pasta do site é ".../public/", e o script abaixo aponta a base para ela. -->
+  <script>
+    (function () {
+      var p = location.pathname, i = p.indexOf('/public/');
+      document.write('<base href="' + (i >= 0 ? p.slice(0, i + 8) : '/') + '">');
+    })();
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/brand/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="nf-body">
+<header class="nf-header">
+  <a class="site-header__brand" href="./">
+    <img class="site-header__logo" src="img/brand/logo-winners.png" width="640" height="275" alt="Winners Hamburgueria — voltar ao início">
+  </a>
+</header>
+
+<main class="nf">
+  <div class="nf__copy">
+    <h1 class="display nf__title">Esse mini <span class="hl-gold">não chegou à mesa.</span></h1>
+    <p class="lead">Erro 404, página não encontrada: o endereço que você abriu não existe ou foi digitado errado. A mesa do seu grupo continua a um toque.</p>
+    <div class="nf__actions">
+      <a class="nf__btn" href="./">Voltar para o início</a>
+      <a class="nf__link" href="https://wa.me/5592981934395" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/></svg>
+        Reservar pelo WhatsApp<span class="visually-hidden"> (abre em nova aba)</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Uma foto só: o Mini Clássico faz o papel do "0" em 404 -->
+  <div class="nf-code" aria-hidden="true">
+    <span>4</span>
+    <img class="nf-code__mini" src="img/secoes/mini-classico-520.webp" width="520" height="520" alt="" decoding="async">
+    <span>4</span>
+  </div>
+</main>
+</body>
+</html>

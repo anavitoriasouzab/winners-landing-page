@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0e0b0a;color:#efe4d3;font-family:'Archivo',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#efe4d3}
+a:hover{color:#f2b544}
+</style>
+</helmet>
+
+<main style="width:100%;overflow:hidden">
+
+<!-- 1 HERO -->
+<section data-screen-label="01 Hero" style="position:relative;background:radial-gradient(120% 90% at 80% 20%, #4a0c0c 0%, #1a0908 55%, #0e0b0a 100%);padding:clamp(20px,4vw,36px) clamp(20px,5vw,72px) clamp(48px,7vw,96px)">
+  <header style="display:flex;align-items:center;justify-content:space-between;max-width:1280px;margin:0 auto clamp(32px,6vw,72px)">
+    <div style="display:flex;align-items:center;gap:10px;padding:8px 14px;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 8px,transparent 8px 16px)">
+      <span style="font-family:'Anton',sans-serif;font-size:24px;letter-spacing:.04em;line-height:1">WINNERS</span>
+      <span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#f2b544">Logo oficial</span>
+    </div>
+  </header>
+  <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(32px,5vw,64px);align-items:center">
+    <div style="display:flex;flex-direction:column;gap:22px">
+      <p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#e0443a">Shopping Arena Mall · Manaus</p>
+      <h1 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(56px,9.5vw,128px);line-height:.98;text-transform:uppercase;letter-spacing:.005em;text-wrap:balance">Vai sair em grupo? <span style="color:#f2b544">Reserve a mesa</span> na Winners.</h1>
+      <p style="margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:15px;color:#efe4d3">
+        <span style="color:#f2b544;letter-spacing:2px">★★★★★</span>
+        <strong style="font-family:'Anton',sans-serif;font-weight:400;font-size:24px;letter-spacing:.02em;line-height:1">4,6</strong><strong style="font-weight:700">no Google</strong>
+        <span style="opacity:.8">· cerca de 1.600 avaliações · consulta em <span style="border-bottom:1.5px dashed #f2b544;color:#f2b544">[DATA DA CONSULTA]</span></span>
+      </p>
+      <p style="margin:0;font-size:clamp(17px,1.6vw,20px);line-height:1.65;max-width:34em;opacity:.9;text-wrap:pretty">Hambúrgueres artesanais, rodízio de minis e um ambiente temático para ir em grupo. Winners Hamburgueria, no Shopping Arena Mall, em Manaus.</p>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:6px">
+        <a href="{{ wa }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:60px;padding:0 30px;background:#c4161c;color:#fff;text-decoration:none;font-family:'Anton',sans-serif;font-size:21px;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;box-shadow:0 10px 30px rgba(196,22,28,.35)" style-hover="background:#dc2027">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"></path></svg>
+          Reservar mesa pelo WhatsApp
+        </a>
+        <span style="font-size:13px;opacity:.75">O valor do rodízio e das bebidas vem na primeira resposta.</span>
+      </div>
+    </div>
+    <div style="position:relative;aspect-ratio:4/5;max-height:640px;width:100%;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px;text-align:center">
+      <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto ou vídeo curto</span>
+      <span style="font-size:15px;opacity:.85;max-width:22em">Salão da Winners à noite: neon aceso, mesas cheias</span>
+    </div>
+  </div>
+</section>
+
+<!-- 2 ABERTURA -->
+<section data-screen-label="02 Abertura" style="background:#efe4d3;color:#1a0f0c;padding:clamp(56px,8vw,112px) clamp(20px,5vw,72px)">
+  <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:clamp(32px,5vw,72px);align-items:center">
+    <div style="aspect-ratio:3/2;width:100%;border:1.5px dashed rgba(26,15,12,.4);background:repeating-linear-gradient(135deg,rgba(26,15,12,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px;text-align:center">
+      <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#a3121a">Foto</span>
+      <span style="font-size:15px;opacity:.8">Grupo de amigos à mesa na Winners</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <h2 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(44px,6vw,80px);line-height:1.02;text-transform:uppercase;text-wrap:balance">Combinou de sair e <span style="color:#a3121a">ninguém sabe onde ir?</span></h2>
+      <p style="margin:0;font-size:18px;line-height:1.75;text-wrap:pretty">O grupo já vetou três lugares e ninguém decide. Errar a escolha custa caro: todo mundo paga, e a noite fica na memória pelo motivo errado.</p>
+      <p style="margin:0;font-size:18px;line-height:1.75;text-wrap:pretty">A Winners resolve as duas coisas de uma vez: <strong>comida boa e um lugar diferente.</strong> Aqui você come cercado de letreiro neon, mural de moto, placas retrô e música.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3 GALERIA E MINIS -->
+<section data-screen-label="03 Galeria e minis" style="background:#0e0b0a;padding:clamp(56px,8vw,112px) clamp(20px,5vw,72px)">
+  <div style="max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,6vw,72px)">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#e0443a">O lugar</p>
+      <h2 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(44px,6.5vw,88px);line-height:1.02;text-transform:uppercase;text-wrap:balance">Neon, mural de moto e hambúrguer artesanal</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));grid-auto-rows:minmax(220px,auto);gap:12px">
+      <div style="grid-row:span 2;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto real do salão</span><span style="font-size:14px;opacity:.8">Letreiro neon</span></div>
+      <div style="border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto real do salão</span><span style="font-size:14px;opacity:.8">Mural de moto</span></div>
+      <div style="border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto real do salão</span><span style="font-size:14px;opacity:.8">Placas retrô</span></div>
+      <div style="grid-column:span 1;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto real do salão</span><span style="font-size:14px;opacity:.8">Mesas e ambiente</span></div>
+      <div style="background:#c4161c;color:#fff;display:flex;align-items:flex-end;padding:24px">
+        <p style="margin:0;font-family:'Anton',sans-serif;font-size:clamp(32px,3.6vw,48px);line-height:1.02;text-transform:uppercase">O cenário é o convite. A comida é o motivo de voltar.</p>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px;align-items:stretch">
+      <div style="border:1.5px dashed #f2b544;background:rgba(242,181,68,.06);padding:28px;display:flex;flex-direction:column;gap:14px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Depoimento · a inserir</span>
+        <span style="color:#f2b544;letter-spacing:2px">★★★★★</span>
+        <p style="margin:0;font-size:17px;line-height:1.7;opacity:.85;font-style:italic">[Avaliação original de Tatianny N., cinco estrelas. Foco: ambiente.]</p>
+        <span style="font-family:'Anton',sans-serif;font-size:20px;letter-spacing:.02em;text-transform:uppercase">Tatianny N. · <span style="opacity:.7;font-weight:400">[data da avaliação] · Google</span></span>
+      </div>
+      <div style="display:flex;flex-direction:column;justify-content:center;gap:12px">
+        <h3 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(36px,4.8vw,64px);line-height:1.02;text-transform:uppercase">Os minis não têm <span style="color:#f2b544">todos o mesmo gosto.</span></h3>
+        <p style="margin:0;font-size:17px;line-height:1.75;opacity:.9;text-wrap:pretty">São mais de 10 receitas diferentes de mini hambúrguer e 4 opções de mini entradas, cada uma com nome e foto aqui embaixo.</p>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:clamp(20px,3vw,36px) 20px">
+      <sc-for list="{{ minis }}" as="m" hint-placeholder-count="10">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center">
+          <div style="width:100%;max-width:170px;aspect-ratio:1;border-radius:50%;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.07) 0 8px,transparent 8px 16px);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#f2b544">Foto</div>
+          <span style="font-family:'Anton',sans-serif;font-size:24px;text-transform:uppercase;line-height:1">{{ m.name }}</span>
+          <span style="font-size:14px;line-height:1.6;opacity:.75">{{ m.desc }}</span>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#e0443a">Mini entradas · 4 opções</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:20px">
+        <sc-for list="{{ entradas }}" as="e" hint-placeholder-count="4">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center">
+            <div style="width:100%;max-width:140px;aspect-ratio:1;border-radius:50%;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.07) 0 8px,transparent 8px 16px);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#f2b544">Foto</div>
+            <span style="font-family:'Anton',sans-serif;font-size:18px;text-transform:uppercase;opacity:.7">{{ e }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 COMPROMISSO -->
+<section data-screen-label="04 Compromisso" style="background:#7d0f12;padding:clamp(56px,8vw,112px) clamp(20px,5vw,72px)">
+  <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(40px,5vw,72px)">
+    <div style="display:flex;flex-direction:column;gap:24px">
+      <p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">E se demorar?</p>
+      <h2 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(44px,6.5vw,88px);line-height:1.02;text-transform:uppercase;text-wrap:balance">Nosso compromisso com o seu tempo</h2>
+      <sc-if value="{{ isA }}" hint-placeholder-val="{{ true }}">
+        <ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;border-top:1px solid rgba(239,228,211,.25)">
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">01</span>O atendente da sua mesa anota no cartão o horário de cada pedido.</li>
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">02</span><span><strong>Passou de 30 minutos entre uma rodada e outra?</strong> A rodada seguinte de minis é por nossa conta.</span></li>
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">03</span>Pedido errado ou frio? A gente refaz sem custo.</li>
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">04</span>Algo fora do combinado? Chame o atendente pelo cartão da mesa. O cartão é a sua prova.</li>
+        </ol>
+      </sc-if>
+      <sc-if value="{{ isB }}" hint-placeholder-val="{{ false }}">
+        <ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;border-top:1px solid rgba(239,228,211,.25)">
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">01</span>Reservou, a mesa do seu grupo está garantida.</li>
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">02</span>A próxima rodada pode ser pedida assim que a anterior chega à mesa.</li>
+          <li style="display:grid;grid-template-columns:64px 1fr;gap:14px;padding:20px 0;align-items:baseline;border-bottom:1px solid rgba(239,228,211,.25);font-size:17px;line-height:1.5"><span style="font-family:'Anton',sans-serif;font-size:40px;color:#f2b544;line-height:.98">03</span>O atendente da sua mesa anota no cartão o horário de cada pedido.</li>
+        </ol>
+      </sc-if>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin-top:8px">
+        <a href="{{ wa }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid #efe4d3;color:#efe4d3;text-decoration:none;font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase;border-radius:4px" style-hover="background:#efe4d3;color:#7d0f12">Tirar dúvidas no WhatsApp →</a>
+        <span style="font-size:13px;opacity:.8">O valor do rodízio e das bebidas vem na primeira resposta.</span>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px;align-content:start">
+      <div style="aspect-ratio:1;border:1.5px dashed rgba(239,228,211,.5);background:repeating-linear-gradient(135deg,rgba(239,228,211,.07) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto do cliente</span><span style="font-size:14px;opacity:.85">Hambúrguer de Nelverton R. (com autorização)</span></div>
+      <div style="aspect-ratio:1;border:1.5px dashed rgba(239,228,211,.5);background:repeating-linear-gradient(135deg,rgba(239,228,211,.07) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto ou mock</span><span style="font-size:14px;opacity:.85">Cartão da mesa com os horários anotados</span></div>
+      <div style="grid-column:1/-1;border:1.5px dashed #f2b544;background:rgba(0,0,0,.18);padding:28px;display:flex;flex-direction:column;gap:14px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Depoimento · a inserir (só se falar de agilidade)</span>
+        <span style="color:#f2b544;letter-spacing:2px">★★★★★</span>
+        <p style="margin:0;font-size:17px;line-height:1.7;opacity:.9;font-style:italic">[Avaliação original de Nelverton R., cinco estrelas. Foco: atendimento.]</p>
+        <span style="font-family:'Anton',sans-serif;font-size:20px;letter-spacing:.02em;text-transform:uppercase">Nelverton R. · <span style="opacity:.75;font-weight:400">[data da avaliação] · Google</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 COMO FUNCIONA -->
+<section data-screen-label="05 Como funciona" style="background:#efe4d3;color:#1a0f0c;padding:clamp(56px,8vw,112px) clamp(20px,5vw,72px)">
+  <div style="max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(36px,5vw,56px)">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#a3121a">Como funciona</p>
+      <h2 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(44px,6.5vw,88px);line-height:1.02;text-transform:uppercase;text-wrap:balance">Dois passos. <span style="color:#a3121a">A mesa já é sua.</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px">
+      <div style="background:#fff8ee;padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;gap:16px;border-top:6px solid #c4161c">
+        <span style="font-family:'Anton',sans-serif;font-size:clamp(88px,10vw,128px);line-height:.85;color:#c4161c">1</span>
+        <h3 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(30px,3.2vw,40px);text-transform:uppercase;line-height:1">Reserve pelo WhatsApp</h3>
+        <p style="margin:0;font-size:17px;line-height:1.6">Informe data, horário e número de pessoas. Reservar garante a mesa do seu grupo, mesmo com a casa cheia.</p>
+      </div>
+      <div style="background:#fff8ee;padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;gap:16px;border-top:6px solid #c4161c">
+        <span style="font-family:'Anton',sans-serif;font-size:clamp(88px,10vw,128px);line-height:.85;color:#c4161c">2</span>
+        <h3 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(30px,3.2vw,40px);text-transform:uppercase;line-height:1">No salão, peça em rodadas</h3>
+        <p style="margin:0;font-size:17px;line-height:1.6">Até 3 minis por pessoa em cada rodada. A próxima pode ser pedida assim que a anterior chegar à mesa, e o atendente anota o horário no cartão da mesa.</p>
+      </div>
+    </div>
+    <p style="margin:0;font-size:15px;line-height:1.75;opacity:.8;max-width:48em">4 opções de mini entradas e mais de 10 de mini hambúrgueres. Bebidas e taxa de serviço não estão incluídas no valor.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px">
+      <div style="border:1.5px dashed #a3121a;background:rgba(163,18,26,.05);padding:28px;display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#a3121a">Depoimento · a inserir, se existir</span>
+        <p style="margin:0;font-size:17px;line-height:1.7;font-style:italic;opacity:.8">[Avaliação real de quem foi em grupo, com nome e data.]</p>
+      </div>
+      <div style="border:1.5px dashed #a3121a;background:rgba(163,18,26,.05);padding:28px;display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#a3121a">Depoimento · a inserir, se existir</span>
+        <p style="margin:0;font-size:17px;line-height:1.7;font-style:italic;opacity:.8">[Avaliação real sobre o rodízio, com nome e data.]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 CTA FINAL + RODAPÉ -->
+<section data-screen-label="06 CTA final e rodapé" style="background:radial-gradient(100% 80% at 50% 0%, #4a0c0c 0%, #140807 60%, #0e0b0a 100%);padding:clamp(56px,8vw,112px) clamp(20px,5vw,72px) 0">
+  <div style="max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,6vw,72px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(32px,5vw,64px);align-items:center">
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <h2 style="margin:0;font-family:'Anton',sans-serif;font-weight:400;font-size:clamp(56px,9vw,124px);line-height:.98;text-transform:uppercase;text-wrap:balance">Onde a gente vai comer hoje? <span style="color:#f2b544">Na Winners.</span></h2>
+        <sc-if value="{{ isA }}" hint-placeholder-val="{{ true }}">
+          <p style="margin:0;font-size:18px;line-height:1.65;opacity:.9">Passou de 30 minutos entre as rodadas? A próxima é por nossa conta.</p>
+        </sc-if>
+        <div style="display:flex;flex-direction:column;gap:10px;max-width:520px">
+          <a href="{{ wa }}" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;gap:14px;min-height:72px;padding:0 28px;background:#f2b544;color:#1a0f0c;text-decoration:none;font-family:'Anton',sans-serif;font-size:clamp(22px,2.4vw,28px);letter-spacing:.03em;text-transform:uppercase;border-radius:4px;box-shadow:0 14px 40px rgba(242,181,68,.28)" style-hover="background:#ffc75c">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"></path></svg>
+            Reservar a mesa do meu grupo
+          </a>
+          <span style="font-size:13px;opacity:.75;text-align:center">O valor do rodízio e das bebidas vem na primeira resposta.</span>
+        </div>
+        <p style="margin:0;font-size:15px;line-height:1.75;opacity:.8;max-width:34em"><strong>PS:</strong> Neon e mural de moto, hambúrguer artesanal e o "onde a gente vai?" resolvido. Winners Hamburgueria, no Shopping Arena Mall, em Manaus.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div style="grid-column:1/-1;aspect-ratio:16/10;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto de fechamento</span><span style="font-size:14px;opacity:.8">Mesa cheia, fim de noite</span></div>
+        <div style="aspect-ratio:1;border:1.5px dashed rgba(239,228,211,.45);background:repeating-linear-gradient(135deg,rgba(239,228,211,.06) 0 12px,transparent 12px 24px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:16px;text-align:center"><span style="font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#f2b544">Foto</span><span style="font-size:14px;opacity:.8">Entrada da loja 05</span></div>
+        <div style="border:1.5px dashed #f2b544;background:rgba(242,181,68,.06);padding:18px;display:flex;flex-direction:column;gap:8px">
+          <span style="font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#f2b544">Depoimento · a inserir</span>
+          <span style="color:#f2b544;letter-spacing:2px;font-size:13px">★★★★★</span>
+          <p style="margin:0;font-size:14px;line-height:1.65;opacity:.85;font-style:italic">[Avaliação original de Évellen P. Foco: visão geral.]</p>
+          <span style="font-size:13px;font-weight:600">Évellen P. · <span style="opacity:.7;font-weight:400">[data]</span></span>
+        </div>
+      </div>
+    </div>
+
+    <footer style="border-top:1px solid rgba(239,228,211,.2);padding:40px 0 48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:28px;font-size:14px;line-height:1.6">
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <span style="font-family:'Anton',sans-serif;font-size:22px;letter-spacing:.04em">WINNERS HAMBURGUERIA</span>
+        <span style="opacity:.8">Shopping Arena Mall, Av. Pedro Teixeira, 3077, loja 05, Manaus</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#e0443a">Horário</span>
+        <span style="opacity:.85">Todos os dias, das 16h às 23h<br>Sexta e sábado até as 4h</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#e0443a">Pagamento</span>
+        <span style="opacity:.85">Pix, débito, crédito e vale-refeição</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:6px">
+        <span style="font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#e0443a">Contato</span>
+        <span style="opacity:.85">Reservas: (92) 98193-4395<br>Instagram: @winnershamburgueria</span>
+      </div>
+      <p style="grid-column:1/-1;margin:0;opacity:.65;font-size:13px">Também entregamos em Chapada, Flores, Adrianópolis, Nossa Senhora das Graças e Parque 10, pelo app de delivery.</p>
+    </footer>
+  </div>
+</section>
+
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;compromisso&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;A&quot;,&quot;B&quot;],&quot;default&quot;:&quot;A&quot;,&quot;tsType&quot;:&quot;'A' | 'B'&quot;,&quot;section&quot;:&quot;Compromisso&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const v = this.props.compromisso ?? 'A';
+    const msg = 'Olá, vi a página da Winners e quero reservar uma mesa para [X] pessoas no dia [Y]. Pode me passar o valor do rodízio?';
+    const named = [
+      { name: 'Mini Clássico', desc: 'Blend artesanal, queijo, alface e tomate' },
+      { name: 'Mini Bacon', desc: 'Bacon crocante e cheddar' },
+      { name: 'Mini Frango', desc: 'Frango empanado e maionese da casa' }
+    ];
+    const rest = Array.from({ length: 7 }, (_, i) => ({ name: `Mini [nome ${i + 4}]`, desc: '[ingredientes]' }));
+    return {
+      isA: v === 'A',
+      isB: v === 'B',
+      wa: 'https://wa.me/5592981934395?text=' + encodeURIComponent(msg),
+      minis: [...named, ...rest],
+      entradas: ['[Entrada 1]', '[Entrada 2]', '[Entrada 3]', '[Entrada 4]']
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Winners Hamburgueria
+User-agent: *
+Allow: /
+
+# Quando houver domínio, descomentar e ajustar:
+# Sitemap: https://SEU-DOMINIO/sitemap.xml

@@ -1,0 +1,23 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Deploy (Vercel / Netlify)
+.vercel/
+.netlify/
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Dependências (caso um dia entre build)
+node_modules/
+
+# Cache de ferramentas locais
+.impeccable/
