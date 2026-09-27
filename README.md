@@ -41,6 +41,11 @@ No VS Code, o Live Server também funciona (abrir `public/index.html`).
 
 ## Deploy
 
+**No ar agora (GitHub Pages):** https://anavitoriasouzab.github.io/winners-landing-page/
+
+Cada `git push` no `main` publica a pasta `public/` automaticamente (`.github/workflows/pages.yml`). Configuração única no GitHub: *Settings → Pages → Build and deployment → Source: "GitHub Actions"*. O andamento aparece na aba *Actions*.
+
+
 Qualquer hospedagem estática serve. Configuração em todas elas:
 
 | Campo | Valor |

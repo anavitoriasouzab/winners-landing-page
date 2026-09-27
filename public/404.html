@@ -6,13 +6,16 @@
   <title>Página não encontrada · Winners Hamburgueria</title>
   <meta name="robots" content="noindex">
   <meta name="theme-color" content="#0e0b0a">
-  <!-- A 404 pode aparecer em qualquer endereço, então os caminhos precisam de uma base fixa.
-       No ar e no localhost a base é a raiz "/". Aberta pelo Live Server ou direto do arquivo,
-       a pasta do site é ".../public/", e o script abaixo aponta a base para ela. -->
+  <!-- A 404 pode aparecer em qualquer endereço, então os caminhos precisam de uma base fixa:
+       - Live Server ou arquivo aberto direto: a pasta ".../public/";
+       - GitHub Pages de projeto (usuario.github.io/repositorio/): "/repositorio/";
+       - domínio próprio e localhost: a raiz "/". -->
   <script>
     (function () {
-      var p = location.pathname, i = p.indexOf('/public/');
-      document.write('<base href="' + (i >= 0 ? p.slice(0, i + 8) : '/') + '">');
+      var p = location.pathname, i = p.indexOf('/public/'), base = '/';
+      if (i >= 0) base = p.slice(0, i + 8);
+      else if (/\.github\.io$/.test(location.hostname) && p.split('/')[1]) base = '/' + p.split('/')[1] + '/';
+      document.write('<base href="' + base + '">');
     })();
   </script>
   <link rel="icon" type="image/png" sizes="32x32" href="img/brand/favicon-32.png">

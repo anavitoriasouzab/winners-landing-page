@@ -20,6 +20,10 @@ Plain static site: HTML + CSS, no framework, no build. The only JS is `public/js
 - `banco de imagens/` — the owner's image drop folder (sources, not deployed). Optimize to WebP into `public/img/` before using; e.g. `reuniao-amigos.png` → `public/img/secoes/amigos-a-mesa-{720,1200}.webp` (fictitious AI photo, owner-approved).
 - `design/claude-design-export/` — the original Claude Design export (`.dc.html` + generated `support.js` runtime). Historical reference; the site was converted from it and no longer depends on it. Don't edit it.
 
+## Publishing
+
+Repo: https://github.com/anavitoriasouzab/winners-landing-page (branch `main` only). GitHub Pages deploys `public/` via `.github/workflows/pages.yml` on every push to `main`; live at https://anavitoriasouzab.github.io/winners-landing-page/ (a project page, so the site lives under `/winners-landing-page/`: keep all paths relative).
+
 ## Running
 
 `python -m http.server 8000 --directory public` (or open `public/index.html`, or Live Server). No lint or tests. Check at ~375px, ~768px and ≥1280px. Headless Chrome won't go below 500px window width — to test phone width, load the page in a 375px `<iframe>`.
